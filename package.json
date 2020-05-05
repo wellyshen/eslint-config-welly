@@ -14,7 +14,9 @@
     "browser-compatibility",
     "jest",
     "testing-library",
-    "emotion"
+    "emotion",
+    "a11y",
+    "import"
   ],
   "author": "Welly Shen <hivoid19@gmail.com> (https://github.com/wellyshen)",
   "main": "index.js",
