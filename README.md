@@ -14,9 +14,9 @@ ESlint configuration for my personal [React](https://reactjs.org) projects, whic
 
 ## Installation
 
-This package is distributed via [npm](https://www.npmjs.com/package/eslint-config-welly), it requires [eslint](https://github.com/eslint/eslint), [typescript](https://github.com/microsoft/TypeScript), and [prettier](https://github.com/prettier/prettier).
+This package is distributed via [npm](https://www.npmjs.com/package/eslint-config-welly). It requires [eslint](https://github.com/eslint/eslint), [typescript](https://github.com/microsoft/TypeScript), and [prettier](https://github.com/prettier/prettier).
 
-Install the correct versions of each package, which are listed by the command:
+Install the correct version of each package, which are listed by the command:
 
 ```sh
 npm info "eslint-config-welly@latest" peerDependencies
@@ -38,7 +38,7 @@ yarn add --dev eslint-config-welly eslint@^x.x.x prettier@^x.x.x typescript@^x.x
 
 ## Usage
 
-Then add the extends to your `.eslintrc.js`:
+Add the extends to your `.eslintrc.js`:
 
 ```js
 module.exports = {
@@ -59,8 +59,8 @@ This configuration contains the following cool packages.
 | [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)        | This package provides Airbnb's .eslintrc as an extensible shared config.                     |
 | [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)                                       | React specific linting rules for ESLint.                                                     |
 | [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks) | This ESLint plugin enforces the [Rules of Hooks](https://reactjs.org/docs/hooks-rules.html). |
-| [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                     | Static AST checker for a11y rules on JSX elements.                                           |
-| [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)                                   | ESLint plugin with rules that help validate proper imports.                                  |
+| [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                     | ESLint plugin with rules that help validate proper imports.                                           |
+| [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)                                   | Static AST checker for a11y rules on JSX elements.                                  |
 | [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)                                  | ESLint plugin for Prettier formatting.                                                       |
 | [eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat)                                     | Lint the browser compatibility of your code.                                                 |
 | [eslint-plugin-emotion](https://github.com/emotion-js/emotion/tree/master/packages/eslint-plugin-emotion)     | ESLint rules for emotion.                                                                    |
