@@ -1,4 +1,7 @@
 # eslint-config-welly
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ESlint configuration for my personal [React](https://reactjs.org) projects, which integrates [TypeScript](https://www.typescriptlang.org), [Prettier](https://prettier.io), and [more](#whats-inside).
 
@@ -66,3 +69,22 @@ This configuration contains the following cool packages.
 | [eslint-plugin-emotion](https://github.com/emotion-js/emotion/tree/master/packages/eslint-plugin-emotion)     | ESLint rules for emotion.                                                                    |
 | [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)                                    | ESLint plugin for Jest.                                                                      |
 | [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library)             | ESLint plugin for Testing Library.                                                           |
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://www.alexypdu.com"><img src="https://avatars3.githubusercontent.com/u/28721952?v=4" width="100px;" alt=""/><br /><sub><b>Alex Du</b></sub></a><br /><a href="https://github.com/wellyshen/eslint-config-welly/commits?author=alexypdu" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

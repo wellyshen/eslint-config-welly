@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "alexypdu",
+      "name": "Alex Du",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/28721952?v=4",
+      "profile": "https://www.alexypdu.com",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "eslint-config-welly",
+  "projectOwner": "wellyshen",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
