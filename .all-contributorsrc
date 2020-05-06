@@ -6,6 +6,17 @@
   "commit": false,
   "contributors": [
     {
+      "login": "wellyshen",
+      "name": "Welly",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/21308003?v=4",
+      "profile": "https://wellyshen.com",
+      "contributions": [
+        "code",
+        "doc",
+        "maintenance"
+      ]
+    },
+    {
       "login": "alexypdu",
       "name": "Alex Du",
       "avatar_url": "https://avatars3.githubusercontent.com/u/28721952?v=4",
