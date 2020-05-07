@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-welly",
-  "version": "0.5.8",
+  "version": "0.5.9",
   "description": "ESLint configuration for React projects that I do. Feel free to use this!",
   "license": "MIT",
   "homepage": "https://github.com/wellyshen/eslint-config-welly",
