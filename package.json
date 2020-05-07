@@ -3,6 +3,7 @@
   "version": "0.5.8",
   "description": "ESLint configuration for React projects that I do. Feel free to use this!",
   "license": "MIT",
+  "homepage": "https://github.com/wellyshen/eslint-config-welly",
   "repository": "https://github.com/wellyshen/eslint-config-welly",
   "bugs": "https://github.com/wellyshen/eslint-config-welly/issues",
   "keywords": [
