@@ -54,19 +54,20 @@ module.exports = {
 
 This configuration contains the following cool packages.
 
-| Package                                                                                                       | Description                                                                                  |
-| ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                                   | Monorepo for all the tooling which enables ESLint to support TypeScript.                     |
-| [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)        | This package provides Airbnb's .eslintrc as an extensible shared config.                     |
-| [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)                                       | React specific linting rules for ESLint.                                                     |
-| [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks) | This ESLint plugin enforces the [Rules of Hooks](https://reactjs.org/docs/hooks-rules.html). |
-| [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                     | ESLint plugin with rules that help validate proper imports.                                  |
-| [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)                                   | Static AST checker for a11y rules on JSX elements.                                           |
-| [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)                                  | ESLint plugin for Prettier formatting.                                                       |
-| [eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat)                                     | Lint the browser compatibility of your code.                                                 |
-| [eslint-plugin-emotion](https://github.com/emotion-js/emotion/tree/master/packages/eslint-plugin-emotion)     | ESLint rules for emotion.                                                                    |
-| [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)                                    | ESLint plugin for Jest.                                                                      |
-| [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library)             | ESLint plugin for Testing Library.                                                           |
+| Package                                                                                                       | Description                                                                                                         | Note            |
+| ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | --------------- |
+| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                                   | Monorepo for all the tooling which enables ESLint to support [TypeScript](https://github.com/microsoft/TypeScript). |                 |
+| [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)        | This package provides Airbnb's .eslintrc as an extensible shared config.                                            |                 |
+| [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)                                       | React specific linting rules for ESLint.                                                                            |                 |
+| [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks) | This ESLint plugin enforces the [Rules of Hooks](https://reactjs.org/docs/hooks-rules.html).                        |                 |
+| [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                     | ESLint plugin with rules that help validate proper imports.                                                         |                 |
+| [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)                                   | Static AST checker for a11y rules on JSX elements.                                                                  |                 |
+| [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)                                  | ESLint plugin for Prettier formatting.                                                                              |                 |
+| [eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat)                                     | Lint the browser compatibility of your code.                                                                        |                 |
+| [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)                                    | ESLint plugin for [Jest](https://jestjs.io).                                                                        |                 |
+| [eslint-plugin-jest-dom](https://github.com/testing-library/eslint-plugin-jest-dom)                           | ESLint rules for use with [jest-dom](https://testing-library.com/docs/ecosystem-jest-dom).                          | Dynamic enabled |
+| [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library)             | ESLint plugin for [Testing Library](https://testing-library.com/docs/react-testing-library/intro).                  | Dynamic enabled |
+| [eslint-plugin-emotion](https://github.com/emotion-js/emotion/tree/master/packages/eslint-plugin-emotion)     | ESLint rules for [emotion](https://emotion.sh).                                                                     | Dynamic enabled |
 
 ## Contributors ✨
 
