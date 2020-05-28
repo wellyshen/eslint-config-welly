@@ -6,15 +6,17 @@ let hasTestingLibrary = false;
 let hasEmotion = false;
 
 try {
-  const pkg = readPkgUp.sync({ normalize: true });
+  const { packageJson } = readPkgUp.sync({ normalize: true });
   const allDeps = Object.keys({
-    ...pkg.peerDependencies,
-    ...pkg.devDependencies,
-    ...pkg.dependencies,
+    ...packageJson.peerDependencies,
+    ...packageJson.devDependencies,
+    ...packageJson.dependencies,
   });
 
   hasJestDom = allDeps.includes("@testing-library/jest-dom");
-  hasTestingLibrary = allDeps.includes("@testing-library/react");
+  hasTestingLibrary =
+    allDeps.includes("@testing-library/react") ||
+    allDeps.includes("@testing-library/react-hooks");
   hasEmotion =
     allDeps.includes("@emotion/core") || allDeps.includes("@emotion/styled");
 } catch (error) {
