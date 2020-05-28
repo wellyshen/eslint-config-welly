@@ -1,3 +1,26 @@
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const readPkgUp = require("read-pkg-up");
+
+let hasJestDom = false;
+let hasTestingLibrary = false;
+let hasEmotion = false;
+
+try {
+  const pkg = readPkgUp.sync({ normalize: true });
+  const allDeps = Object.keys({
+    ...pkg.peerDependencies,
+    ...pkg.devDependencies,
+    ...pkg.dependencies,
+  });
+
+  hasJestDom = allDeps.includes("@testing-library/jest-dom");
+  hasTestingLibrary = allDeps.includes("@testing-library/react");
+  hasEmotion =
+    allDeps.includes("@emotion/core") || allDeps.includes("@emotion/styled");
+} catch (error) {
+  // ignore error
+}
+
 module.exports = {
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -11,18 +34,20 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:jest/recommended",
     "plugin:jest/style",
-    "plugin:testing-library/react",
+    hasJestDom && "plugin:jest-dom/recommended",
+    hasTestingLibrary && "plugin:testing-library/react",
     "plugin:prettier/recommended",
     "prettier/@typescript-eslint",
     "prettier/react",
-  ],
+  ].filter(Boolean),
   plugins: [
     "@typescript-eslint",
     "jest",
-    "testing-library",
-    "emotion",
+    hasJestDom && "jest-dom",
+    hasTestingLibrary && "testing-library",
+    hasEmotion && "emotion",
     "prettier",
-  ],
+  ].filter(Boolean),
   settings: {
     "import/resolver": {
       typescript: {},
@@ -32,7 +57,7 @@ module.exports = {
     browser: true,
     node: true,
     es6: true,
-    jest: true,
+    "jest/globals": true,
   },
   rules: {
     "react/jsx-props-no-spreading": "off",
@@ -46,10 +71,14 @@ module.exports = {
     "import/no-extraneous-dependencies": "off",
     "@typescript-eslint/ban-ts-ignore": "off",
     "@typescript-eslint/no-explicit-any": "off",
-    "emotion/jsx-import": "error",
-    "emotion/no-vanilla": "error",
-    "emotion/import-from-emotion": "error",
-    "emotion/styled-import": "error",
+    ...(hasEmotion
+      ? {
+          "emotion/jsx-import": "error",
+          "emotion/no-vanilla": "error",
+          "emotion/import-from-emotion": "error",
+          "emotion/styled-import": "error",
+        }
+      : null),
     "prettier/prettier": "error",
   },
 };
