@@ -5,14 +5,13 @@ name: Node.js CI
 
 on:
   push:
-    branches: ['**']
-    tags-ignore: ['**']
+    branches: ["**"]
+    tags-ignore: ["**"]
   pull_request:
-    branches: ['**']
+    branches: ["**"]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -20,12 +19,12 @@ jobs:
         node-version: [10.x, 12.x, 14.x]
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: Run install then lint
-      run: |
-        yarn install
-        yarn lint
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install packages
+        run: yarn install
+      - name: Run lint
+        run: yarn lint
