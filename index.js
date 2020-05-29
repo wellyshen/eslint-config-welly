@@ -71,7 +71,7 @@ module.exports = {
     ],
     "import/extensions": "off",
     "import/no-extraneous-dependencies": "off",
-    "@typescript-eslint/ban-ts-ignore": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/no-explicit-any": "off",
     ...(hasEmotion
       ? {
