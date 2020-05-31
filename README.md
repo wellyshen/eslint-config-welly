@@ -2,7 +2,7 @@
 
 ESlint configuration for my personal [React](https://reactjs.org) projects, which integrates [TypeScript](https://www.typescriptlang.org), [Prettier](https://prettier.io), and [more](#whats-inside).
 
-[![build status](https://img.shields.io/github/workflow/status/wellyshen/eslint-config-welly/Node.js%20CI?style=flat-square)](https://github.com/wellyshen/eslint-config-welly/actions?query=workflow%3A%22Node.js+CI%22)
+[![build status](https://img.shields.io/github/workflow/status/wellyshen/eslint-config-welly/CI?style=flat-square)](https://github.com/wellyshen/eslint-config-welly/actions?query=workflow%3ACI)
 [![npm version](https://img.shields.io/npm/v/eslint-config-welly?style=flat-square)](https://www.npmjs.com/package/eslint-config-welly)
 [![npm downloads](https://img.shields.io/npm/dm/eslint-config-welly?style=flat-square)](https://www.npmtrends.com/eslint-config-welly)
 [![npm downloads](https://img.shields.io/npm/dt/eslint-config-welly?style=flat-square)](https://www.npmtrends.com/eslint-config-welly)
