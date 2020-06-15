@@ -626,9 +626,9 @@ eslint-plugin-react@^7.19.0:
     xregexp "^4.3.0"
 
 eslint-plugin-testing-library@^3.2.2:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-3.2.3.tgz#5c57d90695e0b4012ffa5c185dba5a7140ceef3d"
-  integrity sha512-7H3QcG3h5/F+0LV70IjF+riIxKrTNLEh6kkUUZKCvAvI+utBHteZQAitP1UeYUeH4sL7VoXrbCLpxzn5WoVgIA==
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-3.3.0.tgz#485ec166ac96c301bf6f005d5160aeb744d218f2"
+  integrity sha512-G/KqAMFfIGeUAkUEaoYGPVQyrKkYy4uqHGTzq62k8tBDBoOwsv0NwWeE1cM1G2VtHnS+m5dAms26bt9H7QABuw==
   dependencies:
     "@typescript-eslint/experimental-utils" "^2.29.0"
 
