@@ -603,9 +603,9 @@ eslint-plugin-import@^2.20.1:
     tsconfig-paths "^3.9.0"
 
 eslint-plugin-jest-dom@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest-dom/-/eslint-plugin-jest-dom-3.1.0.tgz#fd07cd7a5b58786578edfa75aa1a363201f46b9e"
-  integrity sha512-loHCESMiSE9HabsAgTEBQ+nJ4vZk2+bF1qvcKe2D9zxeUX7B1fSSeJxBGMTBvxfTD4UthSpriu52wCs+V4zuAg==
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest-dom/-/eslint-plugin-jest-dom-3.1.2.tgz#253f4e8ac80956e9df35ea98f4bc71b8d207bd05"
+  integrity sha512-ondJ9To6dfhOgFCKrYx/WgJnCbS23GGMWRmIZzNotnNDVDovvrswBsExh14CSfKjMjxPoI20I23DOwOjj/F4Bw==
   dependencies:
     "@babel/runtime" "^7.9.6"
     requireindex "^1.2.0"
