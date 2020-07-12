@@ -43,32 +43,32 @@
     "extends": "./index.js"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.2.0",
-    "@typescript-eslint/parser": "^3.2.0",
-    "eslint-config-airbnb": "^18.1.0",
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "@typescript-eslint/parser": "^3.6.0",
+    "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-import-resolver-typescript": "^2.0.0",
-    "eslint-plugin-compat": "^3.7.0",
+    "eslint-plugin-compat": "^3.8.0",
     "eslint-plugin-emotion": "^10.0.27",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-jest": "^23.13.2",
-    "eslint-plugin-jest-dom": "^3.0.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.3",
-    "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^2.5.0",
-    "eslint-plugin-testing-library": "^3.2.2",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jest": "^23.18.0",
+    "eslint-plugin-jest-dom": "^3.1.4",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4",
+    "eslint-plugin-testing-library": "^3.3.1",
     "read-pkg-up": "^7.0.1"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
+    "eslint": "^7.2.0",
     "prettier": "^2.0.5",
-    "typescript": "^3.9.5"
+    "typescript": "^3.9.6"
   },
   "peerDependencies": {
-    "eslint": "^6.8.0",
+    "eslint": "^7.2.0",
     "prettier": "^2.0.5",
-    "typescript": "^3.9.5"
+    "typescript": "^3.9.6"
   },
   "engines": {
     "node": ">= 10"
