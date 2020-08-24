@@ -1,4 +1,4 @@
-# ESLINT-CONFIG-WELLY
+# <em><b>ESLINT-CONFIG-WELLY</b></em>
 
 ESlint configuration for my personal [React](https://reactjs.org) projects, which integrates [TypeScript](https://www.typescriptlang.org), [Prettier](https://prettier.io), and [more](#whats-inside).
 
