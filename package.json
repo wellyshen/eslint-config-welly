@@ -40,7 +40,7 @@
     "*.{json,md,yml}": "prettier --write"
   },
   "eslintConfig": {
-    "extends": "./index.js"
+    "extends": "./linter.js"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.0.1",
