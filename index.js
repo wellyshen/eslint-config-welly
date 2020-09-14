@@ -62,6 +62,7 @@ module.exports = {
     "jest/globals": true,
   },
   rules: {
+    "no-shadow": "off",
     "react/jsx-props-no-spreading": "off",
     "react/jsx-filename-extension": [
       "error",
@@ -71,6 +72,7 @@ module.exports = {
     ],
     "import/extensions": "off",
     "import/no-extraneous-dependencies": "off",
+    "@typescript-eslint/no-shadow": ["error"],
     "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/no-explicit-any": "off",
     ...(hasEmotion
