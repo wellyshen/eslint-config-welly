@@ -37,7 +37,7 @@
   },
   "lint-staged": {
     "index.js": "eslint --fix",
-    "*.{json,md,yml}": "prettier --write"
+    "**/*": "prettier --write --ignore-unknown"
   },
   "eslintConfig": {
     "extends": "./linter.js"
