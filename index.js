@@ -1,6 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const readPkgUp = require("read-pkg-up");
 
+let hasPrettier = false;
 let hasJestDom = false;
 let hasTestingLibrary = false;
 let hasEmotion = false;
@@ -13,6 +14,7 @@ try {
     ...packageJson.dependencies,
   });
 
+  hasPrettier = allDeps.includes("prettier");
   hasJestDom = allDeps.includes("@testing-library/jest-dom");
   hasTestingLibrary =
     allDeps.includes("@testing-library/react") ||
@@ -38,9 +40,9 @@ module.exports = {
     "plugin:jest/style",
     hasJestDom && "plugin:jest-dom/recommended",
     hasTestingLibrary && "plugin:testing-library/react",
-    "plugin:prettier/recommended",
-    "prettier/@typescript-eslint",
-    "prettier/react",
+    hasPrettier && "prettier",
+    hasPrettier && "prettier/@typescript-eslint",
+    hasPrettier && "prettier/react",
   ].filter(Boolean),
   plugins: [
     "@typescript-eslint",
@@ -48,7 +50,6 @@ module.exports = {
     hasJestDom && "jest-dom",
     hasTestingLibrary && "testing-library",
     hasEmotion && "emotion",
-    "prettier",
   ].filter(Boolean),
   settings: {
     "import/resolver": {
@@ -83,6 +84,5 @@ module.exports = {
           "emotion/styled-import": "error",
         }
       : null),
-    "prettier/prettier": "error",
   },
 };
