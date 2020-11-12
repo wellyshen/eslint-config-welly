@@ -20,7 +20,9 @@ try {
     allDeps.includes("@testing-library/react") ||
     allDeps.includes("@testing-library/react-hooks");
   hasEmotion =
-    allDeps.includes("@emotion/core") || allDeps.includes("@emotion/styled");
+    allDeps.includes("@emotion/react") ||
+    allDeps.includes("@emotion/styled") ||
+    allDeps.includes("@emotion/css");
 } catch (error) {
   // ignore error
 }
@@ -45,11 +47,11 @@ module.exports = {
     hasPrettier && "prettier/react",
   ].filter(Boolean),
   plugins: [
+    hasEmotion && "@emotion",
     "@typescript-eslint",
     "jest",
     hasJestDom && "jest-dom",
     hasTestingLibrary && "testing-library",
-    hasEmotion && "@emotion",
   ].filter(Boolean),
   settings: {
     "import/resolver": {
