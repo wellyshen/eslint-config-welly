@@ -79,7 +79,7 @@ This configuration contains the following cool packages.
 | [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)                                    | ESLint plugin for [Jest](https://jestjs.io).                                                                        |                 |
 | [eslint-plugin-jest-dom](https://github.com/testing-library/eslint-plugin-jest-dom)                           | ESLint rules for use with [jest-dom](https://testing-library.com/docs/ecosystem-jest-dom).                          | Dynamic enabled |
 | [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library)             | ESLint plugin for [Testing Library](https://testing-library.com/docs/react-testing-library/intro).                  | Dynamic enabled |
-| [eslint-plugin-emotion](https://github.com/emotion-js/emotion/tree/master/packages/eslint-plugin-emotion)     | ESLint rules for [emotion](https://emotion.sh).                                                                     | Dynamic enabled |
+| [@emotion/eslint-plugin](https://github.com/emotion-js/emotion/blob/master/packages/eslint-plugin/README.md)  | ESLint rules for [emotion](https://emotion.sh).                                                                     | Dynamic enabled |
 
 ## Contributors ✨
 

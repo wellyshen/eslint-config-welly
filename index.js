@@ -49,7 +49,7 @@ module.exports = {
     "jest",
     hasJestDom && "jest-dom",
     hasTestingLibrary && "testing-library",
-    hasEmotion && "emotion",
+    hasEmotion && "@emotion",
   ].filter(Boolean),
   settings: {
     "import/resolver": {
@@ -78,10 +78,7 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": "off",
     ...(hasEmotion
       ? {
-          "emotion/jsx-import": "error",
-          "emotion/no-vanilla": "error",
-          "emotion/import-from-emotion": "error",
-          "emotion/styled-import": "error",
+          "@emotion/pkg-renaming": "error",
         }
       : null),
   },
