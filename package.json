@@ -41,9 +41,6 @@
     "index.js": "eslint --fix",
     "**/*": "prettier -w -u"
   },
-  "eslintConfig": {
-    "extends": "./linter.js"
-  },
   "dependencies": {
     "@emotion/eslint-plugin": "^11.0.0",
     "@typescript-eslint/eslint-plugin": "^4.7.0",
