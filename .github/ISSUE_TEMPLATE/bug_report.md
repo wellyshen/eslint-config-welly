@@ -32,7 +32,7 @@ Add screenshots to help explain your problem.
 
 - OS: [e.g. macOS, Windows]
 - Browser [e.g. Chrome, Safari]
-- Version of eslint-config-welly: [e.g. v1.0.0]
+- Version of `eslint-config-welly`: [e.g. v1.0.0]
 
 ## Additional Information
 
