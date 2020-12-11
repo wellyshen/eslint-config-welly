@@ -31,8 +31,8 @@ Add screenshots to help explain your problem.
 ## Your Environment
 
 - OS: [e.g. macOS, Windows]
-- Browser [e.g. Chrome, Safari]
-- Version of `eslint-config-welly`: [e.g. v1.0.0]
+- Browser: [e.g. Chrome, Safari]
+- Version: [e.g. v1.0.0]
 
 ## Additional Information
 
