@@ -43,8 +43,6 @@ module.exports = {
     hasJestDom && "plugin:jest-dom/recommended",
     hasTestingLibrary && "plugin:testing-library/react",
     hasPrettier && "prettier",
-    hasPrettier && "prettier/@typescript-eslint",
-    hasPrettier && "prettier/react",
   ].filter(Boolean),
   plugins: [
     hasEmotion && "@emotion",
