@@ -58,7 +58,7 @@
   },
   "devDependencies": {
     "eslint": "^7.2.0",
-    "husky": "5",
+    "husky": "^5.1.1",
     "lint-staged": "^10.5.4",
     "pinst": "^2.1.6",
     "prettier": "^2.2.1",
