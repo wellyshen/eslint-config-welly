@@ -51,7 +51,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4",
-    "eslint-plugin-testing-library": "^3.10.2",
+    "eslint-plugin-testing-library": "^4.0.0",
     "read-pkg-up": "^7.0.1"
   },
   "devDependencies": {
