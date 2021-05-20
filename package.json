@@ -39,8 +39,8 @@
   },
   "dependencies": {
     "@emotion/eslint-plugin": "^11.2.0",
-    "@typescript-eslint/eslint-plugin": "^4.23.0",
-    "@typescript-eslint/parser": "^4.23.0",
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-typescript": "^2.4.0",
@@ -51,7 +51,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4",
-    "eslint-plugin-testing-library": "^4.4.0",
+    "eslint-plugin-testing-library": "^4.5.0",
     "read-pkg-up": "^7.0.1"
   },
   "devDependencies": {
