@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from "react";
 import { style } from "emotion";
 
 interface Props {
@@ -6,10 +6,13 @@ interface Props {
 }
 
 const Foo = ({ name }: Props) => {
+  onClick();
+
   let num = 123;
   const [count, setCount] = useState();
 
   useEffect(() => {
+    const num = 456;
     count++;
   }, []);
 
