@@ -1,6 +1,6 @@
 # <em><b>ESLINT-CONFIG-WELLY</b></em>
 
-ESlint configuration for my personal [React](https://reactjs.org) projects, which integrates [TypeScript](https://www.typescriptlang.org), [Compat](https://github.com/amilajack/eslint-plugin-compat), and [more](#whats-inside).
+ESlint configuration for my personal [React](https://reactjs.org) projects, which integrates [TypeScript](https://www.typescriptlang.org) and [many awesome features](#whats-inside).
 
 [![build status](https://img.shields.io/github/workflow/status/wellyshen/eslint-config-welly/CI?style=flat-square)](https://github.com/wellyshen/eslint-config-welly/actions?query=workflow%3ACI)
 [![npm version](https://img.shields.io/npm/v/eslint-config-welly?style=flat-square)](https://www.npmjs.com/package/eslint-config-welly)
@@ -73,11 +73,12 @@ This configuration contains the following cool packages.
 | [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks) | This ESLint plugin enforces the [Rules of Hooks](https://reactjs.org/docs/hooks-rules.html).                        |                 |
 | [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                     | ESLint plugin with rules that help validate proper imports.                                                         |                 |
 | [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)                                   | Static AST checker for a11y rules on JSX elements.                                                                  |                 |
-| [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)                                  | Turns off all rules that are unnecessary or might conflict with Prettier.                                           | Dynamic enabled |
+| [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)                                    | Enforce best practices for JavaScript promises.                                                                     |                 |
 | [eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat)                                     | Lint the browser compatibility of your code.                                                                        |                 |
 | [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)                                    | ESLint plugin for [Jest](https://jestjs.io).                                                                        |                 |
 | [eslint-plugin-jest-dom](https://github.com/testing-library/eslint-plugin-jest-dom)                           | ESLint rules for use with [jest-dom](https://testing-library.com/docs/ecosystem-jest-dom).                          | Dynamic enabled |
 | [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library)             | ESLint plugin for [Testing Library](https://testing-library.com/docs/react-testing-library/intro).                  | Dynamic enabled |
+| [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)                                  | Turns off all rules that are unnecessary or might conflict with Prettier.                                           | Dynamic enabled |
 | [@emotion/eslint-plugin](https://github.com/emotion-js/emotion/blob/master/packages/eslint-plugin/README.md)  | ESLint rules for [emotion](https://emotion.sh).                                                                     | Dynamic enabled |
 
 ## Contributors ✨

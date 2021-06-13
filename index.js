@@ -34,23 +34,25 @@ module.exports = {
     sourceType: "module",
     ecmaFeatures: { jsx: true },
   },
+  plugins: [
+    "@typescript-eslint",
+    "promise",
+    "jest",
+    hasJestDom && "jest-dom",
+    hasTestingLibrary && "testing-library",
+    hasEmotion && "@emotion",
+  ].filter(Boolean),
   extends: [
     "airbnb",
     "airbnb/hooks",
-    "plugin:compat/recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:promise/recommended",
+    "plugin:compat/recommended",
     "plugin:jest/recommended",
     "plugin:jest/style",
     hasJestDom && "plugin:jest-dom/recommended",
     hasTestingLibrary && "plugin:testing-library/react",
     hasPrettier && "prettier",
-  ].filter(Boolean),
-  plugins: [
-    hasEmotion && "@emotion",
-    "@typescript-eslint",
-    "jest",
-    hasJestDom && "jest-dom",
-    hasTestingLibrary && "testing-library",
   ].filter(Boolean),
   settings: {
     "import/resolver": {
