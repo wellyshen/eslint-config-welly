@@ -17,7 +17,9 @@
     "testing-library",
     "emotion",
     "a11y",
-    "import"
+    "import",
+    "promise",
+    "async-await"
   ],
   "author": "Welly Shen <hivoid19@gmail.com> (https://github.com/wellyshen)",
   "main": "index.js",
