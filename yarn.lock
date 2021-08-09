@@ -90,7 +90,7 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@mdn/browser-compat-data@^3.3.11":
+"@mdn/browser-compat-data@^3.3.14":
   version "3.3.14"
   resolved "https://registry.yarnpkg.com/@mdn/browser-compat-data/-/browser-compat-data-3.3.14.tgz#b72a37c654e598f9ae6f8335faaee182bebc6b28"
   integrity sha512-n2RC9d6XatVbWFdHLimzzUJxJ1KY8LdjqrW6YvGPiRmsHkhOUx74/Ct10x5Yo7bC/Jvqx7cDEW8IMPv/+vwEzA==
@@ -374,12 +374,12 @@ array.prototype.flatmap@^1.2.4:
     es-abstract "^1.18.0-next.1"
     function-bind "^1.1.1"
 
-ast-metadata-inferer@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/ast-metadata-inferer/-/ast-metadata-inferer-0.5.1.tgz#8268d68b20c03ff3dbce97c15dfa00dcac70fa5c"
-  integrity sha512-fj+QuB47ODy18p5gJ4BFnpenk992o7gx7oPid6oUK9+Uy/F3/5cvZ13harpQPN5Y8MlcjYf0y1LwgOV1J31k+A==
+ast-metadata-inferer@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/ast-metadata-inferer/-/ast-metadata-inferer-0.6.0.tgz#512ca0ea00de3ced5b610e9b029fe6d08f29eda0"
+  integrity sha512-vI/F+NP0g40QMfufPiWfuKCvFAZPC0o8VxqkizkLxl63SlBHOyUqRPsvcSm+rFyDDi9Uj+9CxWqGb72rdrgghw==
   dependencies:
-    "@mdn/browser-compat-data" "^3.3.11"
+    "@mdn/browser-compat-data" "^3.3.14"
 
 ast-types-flow@^0.0.7:
   version "0.0.7"
@@ -421,7 +421,7 @@ braces@^3.0.1:
   dependencies:
     fill-range "^7.0.1"
 
-browserslist@^4.16.6:
+browserslist@^4.16.7:
   version "4.16.7"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.7.tgz#108b0d1ef33c4af1b587c54f390e7041178e4335"
   integrity sha512-7I4qVwqZltJ7j37wObBe3SoTz+nS8APaNcrBOlgoirb6/HbEU2XxW/LpUDTCngM6iauwFqmRTuOMfyKnFGY5JA==
@@ -445,7 +445,7 @@ callsites@^3.0.0:
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
-caniuse-lite@^1.0.30001245, caniuse-lite@^1.0.30001248:
+caniuse-lite@^1.0.30001248, caniuse-lite@^1.0.30001249:
   version "1.0.30001249"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001249.tgz#90a330057f8ff75bfe97a94d047d5e14fabb2ee8"
   integrity sha512-vcX4U8lwVXPdqzPWi6cAJ3FnQaqXbBqy/GZseKNQzRj37J7qZdGcBtxq/QLFNLLlfsoXLUdHw8Iwenri86Tagw==
@@ -536,10 +536,10 @@ core-js-pure@^3.16.0:
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.16.0.tgz#218e07add3f1844e53fab195c47871fc5ba18de8"
   integrity sha512-wzlhZNepF/QA9yvx3ePDgNGudU5KDB8lu/TRPKelYA/QtSnkS/cLl2W+TIdEX1FAFcBr0YpY7tPDlcmXJ7AyiQ==
 
-core-js@^3.15.2:
-  version "3.16.0"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.16.0.tgz#1d46fb33720bc1fa7f90d20431f36a5540858986"
-  integrity sha512-5+5VxRFmSf97nM8Jr2wzOwLqRo6zphH2aX+7KsAUONObyzakDNq2G/bgbhinxB4PoV9L3aXQYhiDKyIKWd2c8g==
+core-js@^3.16.1:
+  version "3.16.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.16.1.tgz#f4485ce5c9f3c6a7cb18fa80488e08d362097249"
+  integrity sha512-AAkP8i35EbefU+JddyWi12AWE9f2N/qr/pwnDtWz4nyUIBGMJPX99ANFFRSw6FefM374lDujdtLDyhN2A/btHw==
 
 cosmiconfig@^7.0.0:
   version "7.0.0"
@@ -752,15 +752,15 @@ eslint-module-utils@^2.6.1:
     pkg-dir "^2.0.0"
 
 eslint-plugin-compat@^3.11.1:
-  version "3.11.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-3.11.1.tgz#f95d7da1cdbb7c05c81d75fa2e1ecee266ccf4aa"
-  integrity sha512-iJyltnaVN9g/MYL3WGb6GFyJs+4mMkumq2E5srxsQIfPqQh14HEE0dtQC/HKDWze+hkwQtSo5DvC3IW5Gmxdtw==
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-3.12.0.tgz#9d0bbe3a7e889ca726f9c0cab1420025d108c7f5"
+  integrity sha512-PVTwl/3aaY2miq6vVfout1uqAYFYFGlMB9oMW7uGBG+a4XKbgxRwv7llC6IrUAWBzwL2XRGng89fW3YEk5rJhA==
   dependencies:
-    "@mdn/browser-compat-data" "^3.3.11"
-    ast-metadata-inferer "^0.5.1"
-    browserslist "^4.16.6"
-    caniuse-lite "^1.0.30001245"
-    core-js "^3.15.2"
+    "@mdn/browser-compat-data" "^3.3.14"
+    ast-metadata-inferer "^0.6.0"
+    browserslist "^4.16.7"
+    caniuse-lite "^1.0.30001249"
+    core-js "^3.16.1"
     find-up "^5.0.0"
     lodash.memoize "4.1.2"
     semver "7.3.5"
