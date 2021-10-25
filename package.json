@@ -54,7 +54,7 @@
     "eslint-plugin-promise": "^5.1.1",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4",
-    "eslint-plugin-testing-library": "^4.12.4",
+    "eslint-plugin-testing-library": "^5.0.0",
     "read-pkg-up": "^7.0.1"
   },
   "devDependencies": {
