@@ -66,8 +66,9 @@ module.exports = {
     "jest/globals": true,
   },
   rules: {
-    "no-use-before-define": "off",
-    "no-shadow": "off",
+    "no-use-before-define": "off", // Avoid TypeScript conflict
+    "no-shadow": "off", // Avoid TypeScript conflict
+    "react/function-component-definition": "off",
     "react/jsx-props-no-spreading": "off",
     "react/jsx-filename-extension": [
       "error",
