@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 
+import Greet from "./Greet";
+
 interface Props {
   name: string;
 }
@@ -19,7 +21,12 @@ const Foo = ({ name }: Props) => {
     setCount({});
   };
 
-  return <div onClick={onClick}>I'm {name}</div>;
+  return (
+    <>
+      <Greet />
+      <div onClick={onClick}>I'm {name}</div>
+    </>
+  );
 };
 
 export default App;
