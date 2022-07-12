@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { style } from "emotion";
 
 interface Props {
   name: string;
@@ -20,11 +19,7 @@ const Foo = ({ name }: Props) => {
     setCount({});
   };
 
-  return (
-    <div css={style(false)} onClick={onClick}>
-      I'm {name}
-    </div>
-  );
+  return <div onClick={onClick}>I'm {name}</div>;
 };
 
 export default App;

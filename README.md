@@ -6,8 +6,6 @@ ESlint configuration for my personal [React](https://reactjs.org) projects, whic
 [![npm version](https://img.shields.io/npm/v/eslint-config-welly?style=flat-square)](https://www.npmjs.com/package/eslint-config-welly)
 [![npm downloads](https://img.shields.io/npm/dm/eslint-config-welly?style=flat-square)](https://www.npmtrends.com/eslint-config-welly)
 [![npm downloads](https://img.shields.io/npm/dt/eslint-config-welly?style=flat-square)](https://www.npmtrends.com/eslint-config-welly)
-[![dependencies status](https://img.shields.io/david/wellyshen/eslint-config-welly?style=flat-square)](https://david-dm.org/wellyshen/eslint-config-welly)
-[![devDependencies status](https://img.shields.io/david/dev/wellyshen/eslint-config-welly?style=flat-square)](https://david-dm.org/wellyshen/eslint-config-welly?type=dev)
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
 [![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fwellyshen%2Feslint-config-welly)](https://twitter.com/intent/tweet?text=With%20@eslint-config-welly,%20I%20can%20code%20by%20following%20the%20best%20style%20guide.%20Thanks,%20@Welly%20Shen%20🤩)
@@ -79,7 +77,6 @@ This configuration contains the following cool packages.
 | [eslint-plugin-jest-dom](https://github.com/testing-library/eslint-plugin-jest-dom)                           | ESLint rules for use with [jest-dom](https://testing-library.com/docs/ecosystem-jest-dom).                          | ✅           |
 | [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library)             | ESLint plugin for [Testing Library](https://testing-library.com/docs/react-testing-library/intro).                  | ✅           |
 | [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)                                  | Turns off all rules that are unnecessary or might conflict with Prettier.                                           | ✅           |
-| [@emotion/eslint-plugin](https://github.com/emotion-js/emotion/blob/master/packages/eslint-plugin/README.md)  | ESLint rules for [emotion](https://emotion.sh).                                                                     | ✅           |
 
 ## Contributors ✨
 

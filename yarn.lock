@@ -38,11 +38,6 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@emotion/eslint-plugin@^11.7.0":
-  version "11.7.0"
-  resolved "https://registry.yarnpkg.com/@emotion/eslint-plugin/-/eslint-plugin-11.7.0.tgz#253c8ace26f3921695a7aa85ecbf6fac75e74b33"
-  integrity sha512-k6H0OxBgkPDVG5M16AWnu3z15OmmKNvGmJiYTcamoOIDhiGE5+no+BiVAiHPOwJf/NOsDei2S9i015cMwlO5sA==
-
 "@eslint/eslintrc@^1.0.5":
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.0.5.tgz#33f1b838dbf1f923bfa517e008362b78ddbbf318"

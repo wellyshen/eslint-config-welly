@@ -4,7 +4,6 @@ const readPkgUp = require("read-pkg-up");
 let hasPrettier = false;
 let hasJestDom = false;
 let hasTestingLibrary = false;
-let hasEmotion = false;
 
 try {
   const { packageJson } = readPkgUp.sync({ normalize: true });
@@ -19,10 +18,6 @@ try {
   hasTestingLibrary =
     allDeps.includes("@testing-library/react") ||
     allDeps.includes("@testing-library/react-hooks");
-  hasEmotion =
-    allDeps.includes("@emotion/react") ||
-    allDeps.includes("@emotion/styled") ||
-    allDeps.includes("@emotion/css");
 } catch (error) {
   // ignore error
 }
@@ -40,7 +35,6 @@ module.exports = {
     "jest",
     hasJestDom && "jest-dom",
     hasTestingLibrary && "testing-library",
-    hasEmotion && "@emotion",
   ].filter(Boolean),
   extends: [
     "airbnb",
@@ -82,10 +76,5 @@ module.exports = {
     "@typescript-eslint/no-use-before-define": "error",
     "@typescript-eslint/no-shadow": "error",
     "@typescript-eslint/no-explicit-any": "off",
-    ...(hasEmotion
-      ? {
-          "@emotion/pkg-renaming": "error",
-        }
-      : null),
   },
 };
