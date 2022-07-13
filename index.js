@@ -69,8 +69,7 @@ module.exports = {
     ...(hasJest ? { "jest/globals": true } : {}),
   },
   rules: {
-    "no-use-before-define": "off", // Avoid TypeScript conflict
-    "no-shadow": "off", // Avoid TypeScript conflict
+    "import/extensions": "off",
     "react/function-component-definition": "off",
     "react/jsx-props-no-spreading": "off",
     "react/jsx-filename-extension": [
@@ -79,10 +78,6 @@ module.exports = {
         extensions: [".js", "jsx", ".ts", ".tsx"],
       },
     ],
-    "import/extensions": "off",
-    "import/no-extraneous-dependencies": "off",
-    "@typescript-eslint/no-use-before-define": "error",
-    "@typescript-eslint/no-shadow": "error",
     "@typescript-eslint/consistent-type-imports": "error",
     "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/no-explicit-any": "off",
