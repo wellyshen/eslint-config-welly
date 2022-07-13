@@ -1,3 +1,1 @@
-module.exports = {
-  extends: "./linter.js",
-};
+module.exports = { extends: "./index.js" };

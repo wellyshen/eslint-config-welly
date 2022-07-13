@@ -2,6 +2,7 @@
 const readPkgUp = require("read-pkg-up");
 
 let hasPrettier = false;
+let hasJest = false;
 let hasJestDom = false;
 let hasTestingLibrary = false;
 
@@ -14,6 +15,7 @@ try {
   });
 
   hasPrettier = allDeps.includes("prettier");
+  hasJest = allDeps.includes("jest");
   hasJestDom = allDeps.includes("@testing-library/jest-dom");
   hasTestingLibrary =
     allDeps.includes("@testing-library/react") ||
@@ -32,7 +34,7 @@ module.exports = {
   plugins: [
     "@typescript-eslint",
     "promise",
-    "jest",
+    hasJest && "jest",
     hasJestDom && "jest-dom",
     hasTestingLibrary && "testing-library",
   ].filter(Boolean),
@@ -42,8 +44,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:promise/recommended",
     "plugin:compat/recommended",
-    "plugin:jest/recommended",
-    "plugin:jest/style",
+    hasJest && "plugin:jest/all",
     hasJestDom && "plugin:jest-dom/recommended",
     hasTestingLibrary && "plugin:testing-library/react",
     hasPrettier && "prettier",
@@ -57,7 +58,7 @@ module.exports = {
     browser: true,
     node: true,
     es6: true,
-    "jest/globals": true,
+    ...(hasJest ? { "jest/globals": true } : {}),
   },
   rules: {
     "no-use-before-define": "off", // Avoid TypeScript conflict
