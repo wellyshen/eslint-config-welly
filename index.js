@@ -31,24 +31,32 @@ module.exports = {
     sourceType: "module",
     ecmaFeatures: { jsx: true },
   },
-  plugins: [
-    "@typescript-eslint",
-    "promise",
-    hasJest && "jest",
-    hasJestDom && "jest-dom",
-    hasTestingLibrary && "testing-library",
-  ].filter(Boolean),
+  plugins: ["@typescript-eslint", "promise", hasJestDom && "jest-dom"].filter(
+    Boolean
+  ),
   extends: [
     "airbnb",
     "airbnb/hooks",
     "plugin:@typescript-eslint/recommended",
     "plugin:promise/recommended",
     "plugin:compat/recommended",
-    hasJest && "plugin:jest/all",
     hasJestDom && "plugin:jest-dom/recommended",
-    hasTestingLibrary && "plugin:testing-library/react",
     hasPrettier && "prettier",
   ].filter(Boolean),
+  overrides: [
+    // Run jest and testing-library only against test files
+    {
+      files: ["**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[jt]s?(x)"],
+      plugins: [
+        hasJest && "jest",
+        hasTestingLibrary && "testing-library",
+      ].filter(Boolean),
+      extends: [
+        hasJest && "plugin:jest/all",
+        hasTestingLibrary && "plugin:testing-library/react",
+      ].filter(Boolean),
+    },
+  ],
   settings: {
     "import/resolver": {
       typescript: {},
@@ -73,9 +81,9 @@ module.exports = {
     ],
     "import/extensions": "off",
     "import/no-extraneous-dependencies": "off",
-    "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/no-use-before-define": "error",
     "@typescript-eslint/no-shadow": "error",
+    "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/no-explicit-any": "off",
   },
 };
