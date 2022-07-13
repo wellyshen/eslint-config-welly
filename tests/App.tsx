@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { FC, useEffect } from "react";
 
 import Greet from "./Greet";
 
@@ -6,7 +6,7 @@ interface Props {
   name: string;
 }
 
-const Foo = ({ name }: Props) => {
+const Foo: FC<any> = ({ name }: Props) => {
   onClick();
 
   let num = 123;
